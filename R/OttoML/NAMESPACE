@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(jsonlite,toJSON)
+importFrom(jsonlite,fromJSON)
+import(httr)
