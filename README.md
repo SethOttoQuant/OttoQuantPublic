@@ -1,6 +1,4 @@
----
-title: OttoQuant APIs
----
+# OttoQuant API Code and Docs
 
 This repository contains functions and documentation allowing users to easily access our predictive analytics APIs. This is currently limited to the beta version of our machine learning API.
 
