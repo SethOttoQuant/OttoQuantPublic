@@ -17,7 +17,9 @@ Swagger Docs: [142.93.85.22/\_\_docs\_\_](http://142.93.85.22/__docs__/)
 ## Overview
 
 OttoQuant's machine learning algorithm is designed to look for relationships or patterns in data that allow us to predict a target series using a set of predictors or right hand side (RHS) variables. We can state this relationship as
-\[ p(x) = f(y_1, y_2, y_3, \ldots) \]
+
+$p(x) = f(y_1, y_2, y_3, \ldots)$
+
 where $p(x)$ represents the probability of observing some value of $x$ based on our observations $y_1, y_2, y_3, \ldots$. The function $f(\cdot)$ represents our machine learning algorithm. The basic API call returns three objects. \verb|x_point| is the expected value of $x$ defined as
 \[ E(x) = \int x p(x) dx \]
 The output \verb|x_dist| is the empirical distribution of $x$, representing the probability of each value in \verb|x_grid|.
